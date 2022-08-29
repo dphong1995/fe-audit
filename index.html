@@ -15,7 +15,7 @@
         href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.1/build/styles/atom-one-dark.min.css">
 
     <title>NPM Audit Report</title>
-    <meta name="description" content="72 known vulnerabilities found.">
+    <meta name="description" content="63 known vulnerabilities found.">
 
     <style>
         pre {
@@ -39,7 +39,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
-                            72
+                            63
                         </h5>
                         <p class="card-text">Known vulnerabilities</p>
                     </div>
@@ -47,7 +47,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
-                            1,354
+                            1,356
                         </h5>
                         <p class="card-text">Dependencies</p>
                     </div>
@@ -55,7 +55,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
-                            August 29th 2022, 3:06:48 am
+                            August 29th 2022, 3:33:06 am
                         </h5>
                         <p class="card-text">Last updated</p>
                     </div>
@@ -75,7 +75,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
-                            38
+                            32
                         </h5>
                         <p class="card-text">
                             <span class="badge badge-warning">high</span>
@@ -85,7 +85,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
-                            17
+                            14
                         </h5>
                         <p class="card-text">
                             <span class="badge badge-secondary">moderate</span>
@@ -248,21 +248,6 @@
                         </tr>
                         <tr>
                             <th scope="row">
-                                <a href="https://github.com/advisories/GHSA-p6mc-m468-83gw" data-toggle="modal" data-target="#advisory-modal-1070246">Prototype Pollution in lodash</a>
-                            </th>
-                            <td>
-                                <a href="https://npmjs.com/package/lodash-es" target="_blank"
-                                    rel="noopener">lodash-es</a>
-                            </td>
-                            <td data-order="2"><span
-                                    class="badge badge-warning">high</span></td>
-                            <td>
-                                CWE-770,CWE-1321
-                                , CVE-2020-8203
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
                                 <a href="https://github.com/advisories/GHSA-vh95-rmgr-6w4m" data-toggle="modal" data-target="#advisory-modal-1070255">Prototype Pollution in minimist</a>
                             </th>
                             <td>
@@ -379,36 +364,6 @@
                             <td>
                                 CWE-915,CWE-1321
                                 , CVE-2021-3918
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <a href="https://github.com/advisories/GHSA-35jh-r3h4-6jhm" data-toggle="modal" data-target="#advisory-modal-1082032">Command Injection in lodash</a>
-                            </th>
-                            <td>
-                                <a href="https://npmjs.com/package/lodash-es" target="_blank"
-                                    rel="noopener">lodash-es</a>
-                            </td>
-                            <td data-order="2"><span
-                                    class="badge badge-warning">high</span></td>
-                            <td>
-                                CWE-77,CWE-94
-                                , CVE-2021-23337
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <a href="https://github.com/advisories/GHSA-29mw-wpgm-hmr9" data-toggle="modal" data-target="#advisory-modal-1082033">Regular Expression Denial of Service (ReDoS) in lodash</a>
-                            </th>
-                            <td>
-                                <a href="https://npmjs.com/package/lodash-es" target="_blank"
-                                    rel="noopener">lodash-es</a>
-                            </td>
-                            <td data-order="3"><span
-                                    class="badge badge-secondary">moderate</span></td>
-                            <td>
-                                CWE-400
-                                , CVE-2020-28500
                             </td>
                         </tr>
                         <tr>
@@ -913,7 +868,7 @@
 
                     <h3>Findings</h3>
                     <ul>
-                        <li>2801ee238fe1784ddae921ab2fde0f54cbc87b75ea2edc27f929d3b1252bc3a1&gt;js-html2pdf&gt;jspdf&gt;canvg&gt;xmldom </li>
+                        <li>c38e22210b4cf90bed1f14005f44075afd9b6196a63e2cd89b9a92d2177de31d&gt;js-html2pdf&gt;jspdf&gt;canvg&gt;xmldom </li>
                     </ul>
 
                     <h3>Remediation</h3>
@@ -1170,83 +1125,6 @@ console.<span class="hljs-built_in">log</span>(evaluate(ast, {x:1}));
             </div>
         </div>
     </div>
-    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1070246">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">
-                        <span class="badge badge-warning">high</span>
-                        Prototype Pollution in lodash
-                    </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Module:
-                                    <a href="https://npmjs.com/package/lodash-es" target="_blank"
-                                        rel="noopener">lodash-es</a>
-                                </li>
-                                <li>Published: July 15th 2020 </li>
-                                <li>Reported by: </li>
-                                <li>CWE-770,CWE-1321</li>
-                                <li>CVE-2020-8203</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Vulnerable: &lt;4.17.20</li>
-                                <li>Patched: &gt;&#x3D;4.17.20</li>
-                                <li>Exploitability: </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <h3>Overview</h3>
-                    <p class="card-text"><p>Versions of lodash prior to 4.17.19 are vulnerable to Prototype Pollution. The function zipObjectDeep allows a malicious user to modify the prototype of Object if the property identifiers are user-supplied. Being affected by this issue requires zipping objects based on user-provided property arrays.</p>
-<p>This vulnerability causes the addition or modification of an existing property that will exist on all objects and may lead to Denial of Service or Code Execution under specific circumstances.</p>
-</p>
-
-                    <h3>Findings</h3>
-                    <ul>
-                        <li>formik&gt;lodash-es </li>
-                        <li>react-bootstrap&gt;@restart/hooks&gt;lodash-es </li>
-                        <li>react-bootstrap&gt;react-overlays&gt;@restart/hooks&gt;lodash-es </li>
-                    </ul>
-
-                    <h3>Remediation</h3>
-                    <p class="card-text"><p>Upgrade to version 4.17.20 or later</p>
-</p>
-                     
-                    <h3>References</h3>
-                    <p class="card-text"><ul>
-<li><a href="https://github.com/lodash/lodash/issues/4744">https://github.com/lodash/lodash/issues/4744</a></li>
-<li><a href="https://github.com/lodash/lodash/commit/c84fe82760fb2d3e03a63379b297a1cc1a2fce12">https://github.com/lodash/lodash/commit/c84fe82760fb2d3e03a63379b297a1cc1a2fce12</a></li>
-<li><a href="https://www.npmjs.com/advisories/1523">https://www.npmjs.com/advisories/1523</a></li>
-<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-8203">https://nvd.nist.gov/vuln/detail/CVE-2020-8203</a></li>
-<li><a href="https://hackerone.com/reports/712065">https://hackerone.com/reports/712065</a></li>
-<li><a href="https://security.netapp.com/advisory/ntap-20200724-0006/">https://security.netapp.com/advisory/ntap-20200724-0006/</a></li>
-<li><a href="https://github.com/lodash/lodash/issues/4874">https://github.com/lodash/lodash/issues/4874</a></li>
-<li><a href="https://www.oracle.com/security-alerts/cpuApr2021.html">https://www.oracle.com/security-alerts/cpuApr2021.html</a></li>
-<li><a href="https://www.oracle.com//security-alerts/cpujul2021.html">https://www.oracle.com//security-alerts/cpujul2021.html</a></li>
-<li><a href="https://www.oracle.com/security-alerts/cpuoct2021.html">https://www.oracle.com/security-alerts/cpuoct2021.html</a></li>
-<li><a href="https://www.oracle.com/security-alerts/cpujan2022.html">https://www.oracle.com/security-alerts/cpujan2022.html</a></li>
-<li><a href="https://www.oracle.com/security-alerts/cpuapr2022.html">https://www.oracle.com/security-alerts/cpuapr2022.html</a></li>
-<li><a href="https://github.com/advisories/GHSA-p6mc-m468-83gw">https://github.com/advisories/GHSA-p6mc-m468-83gw</a></li>
-</ul>
-</p>
-                     
-                </div>
-                <div class="modal-footer">
-                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-p6mc-m468-83gw" target="_blank" rel="noopener">More about
-                        this vulnerability</a>
-                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1070255">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -1435,7 +1313,7 @@ console.<span class="hljs-built_in">log</span>(evaluate(ast, {x:1}));
 
                     <h3>Findings</h3>
                     <ul>
-                        <li>2801ee238fe1784ddae921ab2fde0f54cbc87b75ea2edc27f929d3b1252bc3a1&gt;js-html2pdf&gt;jspdf&gt;canvg&gt;jsdom </li>
+                        <li>c38e22210b4cf90bed1f14005f44075afd9b6196a63e2cd89b9a92d2177de31d&gt;js-html2pdf&gt;jspdf&gt;canvg&gt;jsdom </li>
                     </ul>
 
                     <h3>Remediation</h3>
@@ -1821,7 +1699,7 @@ console.<span class="hljs-built_in">log</span>(evaluate(ast, {x:1}));
 
                     <h3>Findings</h3>
                     <ul>
-                        <li>2801ee238fe1784ddae921ab2fde0f54cbc87b75ea2edc27f929d3b1252bc3a1&gt;js-html2pdf&gt;jspdf&gt;canvg&gt;jsdom&gt;request&gt;http-signature&gt;jsprim&gt;json-schema </li>
+                        <li>c38e22210b4cf90bed1f14005f44075afd9b6196a63e2cd89b9a92d2177de31d&gt;js-html2pdf&gt;jspdf&gt;canvg&gt;jsdom&gt;request&gt;http-signature&gt;jsprim&gt;json-schema </li>
                     </ul>
 
                     <h3>Remediation</h3>
@@ -1842,164 +1720,6 @@ console.<span class="hljs-built_in">log</span>(evaluate(ast, {x:1}));
                 </div>
                 <div class="modal-footer">
                     <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-896r-f27r-55mw" target="_blank" rel="noopener">More about
-                        this vulnerability</a>
-                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1082032">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">
-                        <span class="badge badge-warning">high</span>
-                        Command Injection in lodash
-                    </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Module:
-                                    <a href="https://npmjs.com/package/lodash-es" target="_blank"
-                                        rel="noopener">lodash-es</a>
-                                </li>
-                                <li>Published: May 6th 2021 </li>
-                                <li>Reported by: </li>
-                                <li>CWE-77,CWE-94</li>
-                                <li>CVE-2021-23337</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Vulnerable: &lt;4.17.21</li>
-                                <li>Patched: &gt;&#x3D;4.17.21</li>
-                                <li>Exploitability: </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <h3>Overview</h3>
-                    <p class="card-text"><p><code>lodash</code> versions prior to 4.17.21 are vulnerable to Command Injection via the template function.</p>
-</p>
-
-                    <h3>Findings</h3>
-                    <ul>
-                        <li>formik&gt;lodash-es </li>
-                        <li>react-bootstrap&gt;@restart/hooks&gt;lodash-es </li>
-                        <li>react-bootstrap&gt;react-overlays&gt;@restart/hooks&gt;lodash-es </li>
-                    </ul>
-
-                    <h3>Remediation</h3>
-                    <p class="card-text"><p>Upgrade to version 4.17.21 or later</p>
-</p>
-                     
-                    <h3>References</h3>
-                    <p class="card-text"><ul>
-<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-23337">https://nvd.nist.gov/vuln/detail/CVE-2021-23337</a></li>
-<li><a href="https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c">https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c</a></li>
-<li><a href="https://security.netapp.com/advisory/ntap-20210312-0006/">https://security.netapp.com/advisory/ntap-20210312-0006/</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JS-LODASH-1040724">https://snyk.io/vuln/SNYK-JS-LODASH-1040724</a></li>
-<li><a href="https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js#L14851">https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js#L14851</a></li>
-<li><a href="https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js%23L14851">https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js%23L14851</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGFUJIONWEBJARS-1074932">https://snyk.io/vuln/SNYK-JAVA-ORGFUJIONWEBJARS-1074932</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074930">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074930</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074928">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074928</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBLODASH-1074931">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBLODASH-1074931</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074929">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074929</a></li>
-<li><a href="https://www.oracle.com//security-alerts/cpujul2021.html">https://www.oracle.com//security-alerts/cpujul2021.html</a></li>
-<li><a href="https://www.oracle.com/security-alerts/cpuoct2021.html">https://www.oracle.com/security-alerts/cpuoct2021.html</a></li>
-<li><a href="https://www.oracle.com/security-alerts/cpujan2022.html">https://www.oracle.com/security-alerts/cpujan2022.html</a></li>
-<li><a href="https://www.oracle.com/security-alerts/cpujul2022.html">https://www.oracle.com/security-alerts/cpujul2022.html</a></li>
-<li><a href="https://github.com/advisories/GHSA-35jh-r3h4-6jhm">https://github.com/advisories/GHSA-35jh-r3h4-6jhm</a></li>
-</ul>
-</p>
-                     
-                </div>
-                <div class="modal-footer">
-                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-35jh-r3h4-6jhm" target="_blank" rel="noopener">More about
-                        this vulnerability</a>
-                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1082033">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">
-                        <span class="badge badge-secondary">moderate</span>
-                        Regular Expression Denial of Service (ReDoS) in lodash
-                    </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Module:
-                                    <a href="https://npmjs.com/package/lodash-es" target="_blank"
-                                        rel="noopener">lodash-es</a>
-                                </li>
-                                <li>Published: January 6th 2022 </li>
-                                <li>Reported by: </li>
-                                <li>CWE-400</li>
-                                <li>CVE-2020-28500</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Vulnerable: &lt;4.17.21</li>
-                                <li>Patched: &gt;&#x3D;4.17.21</li>
-                                <li>Exploitability: </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <h3>Overview</h3>
-                    <p class="card-text"><p>All versions of package lodash prior to 4.17.21 are vulnerable to Regular Expression Denial of Service (ReDoS) via the toNumber, trim and trimEnd functions. Steps to reproduce (provided by reporter Liyuan Chen): var lo = require(&#39;lodash&#39;); function build_blank (n) { var ret = &quot;1&quot; for (var i = 0; i &lt; n; i++) { ret += &quot; &quot; } return ret + &quot;1&quot;; } var s = build_blank(50000) var time0 = Date.now(); lo.trim(s) var time_cost0 = Date.now() - time0; console.log(&quot;time_cost0: &quot; + time_cost0) var time1 = Date.now(); lo.toNumber(s) var time_cost1 = Date.now() - time1; console.log(&quot;time_cost1: &quot; + time_cost1) var time2 = Date.now(); lo.trimEnd(s) var time_cost2 = Date.now() - time2; console.log(&quot;time_cost2: &quot; + time_cost2)</p>
-</p>
-
-                    <h3>Findings</h3>
-                    <ul>
-                        <li>formik&gt;lodash-es </li>
-                        <li>react-bootstrap&gt;@restart/hooks&gt;lodash-es </li>
-                        <li>react-bootstrap&gt;react-overlays&gt;@restart/hooks&gt;lodash-es </li>
-                    </ul>
-
-                    <h3>Remediation</h3>
-                    <p class="card-text"><p>Upgrade to version 4.17.21 or later</p>
-</p>
-                     
-                    <h3>References</h3>
-                    <p class="card-text"><ul>
-<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-28500">https://nvd.nist.gov/vuln/detail/CVE-2020-28500</a></li>
-<li><a href="https://github.com/lodash/lodash/pull/5065">https://github.com/lodash/lodash/pull/5065</a></li>
-<li><a href="https://github.com/lodash/lodash/pull/5065/commits/02906b8191d3c100c193fe6f7b27d1c40f200bb7">https://github.com/lodash/lodash/pull/5065/commits/02906b8191d3c100c193fe6f7b27d1c40f200bb7</a></li>
-<li><a href="https://github.com/lodash/lodash/blob/npm/trimEnd.js%23L8">https://github.com/lodash/lodash/blob/npm/trimEnd.js%23L8</a></li>
-<li><a href="https://security.netapp.com/advisory/ntap-20210312-0006/">https://security.netapp.com/advisory/ntap-20210312-0006/</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JS-LODASH-1018905">https://snyk.io/vuln/SNYK-JS-LODASH-1018905</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGFUJIONWEBJARS-1074896">https://snyk.io/vuln/SNYK-JAVA-ORGFUJIONWEBJARS-1074896</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074894">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074894</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074892">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074892</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBLODASH-1074895">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBLODASH-1074895</a></li>
-<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074893">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074893</a></li>
-<li><a href="https://www.oracle.com//security-alerts/cpujul2021.html">https://www.oracle.com//security-alerts/cpujul2021.html</a></li>
-<li><a href="https://www.oracle.com/security-alerts/cpuoct2021.html">https://www.oracle.com/security-alerts/cpuoct2021.html</a></li>
-<li><a href="https://www.oracle.com/security-alerts/cpujan2022.html">https://www.oracle.com/security-alerts/cpujan2022.html</a></li>
-<li><a href="https://www.oracle.com/security-alerts/cpujul2022.html">https://www.oracle.com/security-alerts/cpujul2022.html</a></li>
-<li><a href="https://github.com/advisories/GHSA-29mw-wpgm-hmr9">https://github.com/advisories/GHSA-29mw-wpgm-hmr9</a></li>
-</ul>
-</p>
-                     
-                </div>
-                <div class="modal-footer">
-                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-29mw-wpgm-hmr9" target="_blank" rel="noopener">More about
                         this vulnerability</a>
                     <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
                 </div>
@@ -2046,7 +1766,7 @@ console.<span class="hljs-built_in">log</span>(evaluate(ast, {x:1}));
 
                     <h3>Findings</h3>
                     <ul>
-                        <li>2801ee238fe1784ddae921ab2fde0f54cbc87b75ea2edc27f929d3b1252bc3a1&gt;js-html2pdf&gt;jspdf </li>
+                        <li>c38e22210b4cf90bed1f14005f44075afd9b6196a63e2cd89b9a92d2177de31d&gt;js-html2pdf&gt;jspdf </li>
                     </ul>
 
                     <h3>Remediation</h3>
@@ -2115,7 +1835,7 @@ console.<span class="hljs-built_in">log</span>(evaluate(ast, {x:1}));
 
                     <h3>Findings</h3>
                     <ul>
-                        <li>2801ee238fe1784ddae921ab2fde0f54cbc87b75ea2edc27f929d3b1252bc3a1&gt;js-html2pdf&gt;jspdf&gt;canvg&gt;jsdom&gt;request&gt;har-validator&gt;ajv </li>
+                        <li>c38e22210b4cf90bed1f14005f44075afd9b6196a63e2cd89b9a92d2177de31d&gt;js-html2pdf&gt;jspdf&gt;canvg&gt;jsdom&gt;request&gt;har-validator&gt;ajv </li>
                     </ul>
 
                     <h3>Remediation</h3>
@@ -2182,7 +1902,7 @@ console.<span class="hljs-built_in">log</span>(evaluate(ast, {x:1}));
 
                     <h3>Findings</h3>
                     <ul>
-                        <li>2801ee238fe1784ddae921ab2fde0f54cbc87b75ea2edc27f929d3b1252bc3a1&gt;js-html2pdf&gt;jspdf </li>
+                        <li>c38e22210b4cf90bed1f14005f44075afd9b6196a63e2cd89b9a92d2177de31d&gt;js-html2pdf&gt;jspdf </li>
                     </ul>
 
                     <h3>Remediation</h3>
@@ -2324,7 +2044,7 @@ console.<span class="hljs-built_in">log</span>(evaluate(ast, {x:1}));
 
                     <h3>Findings</h3>
                     <ul>
-                        <li>2801ee238fe1784ddae921ab2fde0f54cbc87b75ea2edc27f929d3b1252bc3a1&gt;js-html2pdf&gt;jspdf </li>
+                        <li>c38e22210b4cf90bed1f14005f44075afd9b6196a63e2cd89b9a92d2177de31d&gt;js-html2pdf&gt;jspdf </li>
                     </ul>
 
                     <h3>Remediation</h3>
@@ -2411,7 +2131,7 @@ console.<span class="hljs-built_in">log</span>(evaluate(ast, {x:1}));
 
                     <h3>Findings</h3>
                     <ul>
-                        <li>2801ee238fe1784ddae921ab2fde0f54cbc87b75ea2edc27f929d3b1252bc3a1&gt;js-html2pdf&gt;jspdf&gt;canvg&gt;xmldom </li>
+                        <li>c38e22210b4cf90bed1f14005f44075afd9b6196a63e2cd89b9a92d2177de31d&gt;js-html2pdf&gt;jspdf&gt;canvg&gt;xmldom </li>
                     </ul>
 
                     <h3>Remediation</h3>
